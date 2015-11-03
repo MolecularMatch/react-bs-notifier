@@ -11,7 +11,7 @@
     "bootstrap",
     "alerts"
   ],
-  "main": "alerts.js",
+  "main": "alerts.jsx",
   "author": "Chad Lee <npm@chadly.net>",
   "license": "MIT",
   "scripts": {
@@ -32,11 +32,12 @@
     ]
   },
   "dependencies": {
-    "node-lessify": "0.0.10",
+    "node-lessify": "0.0.10"
+  },
+  "peerDependencies": {
     "react": "^0.14.2",
     "react-addons-css-transition-group": "^0.14.2"
   },
-  "peerDependencies": {},
   "devDependencies": {
     "jshint": "^2.7.0",
     "react-tools": "^0.13.2",
