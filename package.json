@@ -11,7 +11,7 @@
     "bootstrap",
     "alerts"
   ],
-  "main": "alerts.jsx",
+  "main": "alerts.js",
   "author": "Chad Lee <npm@chadly.net>",
   "license": "MIT",
   "scripts": {
