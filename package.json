@@ -1,6 +1,6 @@
 {
   "name": "react-bs-notifier",
-  "version": "0.3.1",
+  "version": "0.3.0",
   "description": "A react component to show growl-like notifications using bootstrap alerts",
   "keywords": [
     "react-component",
@@ -11,11 +11,13 @@
     "bootstrap",
     "alerts"
   ],
-  "main": "alerts.jsx",
+  "main": "alerts.js",
   "author": "Chad Lee <npm@chadly.net>",
   "license": "MIT",
   "scripts": {
-
+    "build": "jsx alerts.jsx > alerts.js",
+    "test": "jshint . --exclude node_modules",
+    "prepublish": "npm run build && npm run test"
   },
   "repository": {
     "type": "git",
