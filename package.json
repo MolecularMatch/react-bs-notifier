@@ -30,12 +30,11 @@
     ]
   },
   "dependencies": {
-    "node-lessify": "0.0.10"
-  },
-  "peerDependencies": {
+    "node-lessify": "0.0.10",
     "react": "^0.14.2",
     "react-addons-css-transition-group": "^0.14.2"
   },
+  "peerDependencies": {},
   "devDependencies": {
     "jshint": "^2.7.0",
     "react-tools": "^0.13.2",
