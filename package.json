@@ -15,9 +15,7 @@
   "author": "Chad Lee <npm@chadly.net>",
   "license": "MIT",
   "scripts": {
-    "build": "jsx alerts.jsx > alerts.js",
-    "test": "jshint . --exclude node_modules",
-    "prepublish": "npm run build && npm run test"
+
   },
   "repository": {
     "type": "git",
